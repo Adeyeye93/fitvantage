@@ -1,0 +1,16 @@
+.vscode/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.env
+*.env.*
+.DS_Store
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace

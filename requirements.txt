@@ -1,0 +1,59 @@
+# FitVantage Requirements
+# Phase 1: Affiliate Authority Site
+
+# Core Django
+Django
+psycopg2-binary  # PostgreSQL adapter (use in production)
+
+# Task Queue & Scheduling
+celery
+redis
+django-celery-beat
+django-celery-results
+
+# REST API (Phase 2)
+djangorestframework
+django-cors-headers
+
+# External APIs
+requests  # For Amazon API
+twilio # For Twilio (Phase 2)
+
+# Environment Variables
+python-dotenv
+
+# Caching
+django-redis
+
+# Admin Enhancements
+django-admin-interface
+
+# Security & Validation
+django-environ
+
+# Testing
+pytest
+pytest-django
+pytest-cov
+faker  # For generating fake data in tests
+
+# Code Quality
+black
+flake8
+isort
+pylint
+
+# Monitoring & Logging
+sentry-sdk  # Optional: Error tracking
+
+# Development
+django-debug-toolbar
+django-extensions
+
+# Production Server
+gunicorn
+whitenoise  # Static file serving
+
+# Utilities
+pillow  # Image handling
+slugify
